@@ -1,0 +1,8 @@
+martynkevich_pa
+martynkevich_pa
+/home/martynkevich_pa/linux_lab
+uid=1000(martynkevich_pa) gid=1000(martynkevich_pa) groups=1000(martynkevich_pa),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),105(lpadmin),125(sambashare),986(vboxsf)
+total 4
+-rw-rw-r-- 2 martynkevich_pa martynkevich_pa 5 Oct 17 17:34 main.py
+-rw-rw-r-- 1 martynkevich_pa martynkevich_pa 0 Oct 17 16:50 utils.sh
+Tue Oct 21 05:52:53 PM +03 2025

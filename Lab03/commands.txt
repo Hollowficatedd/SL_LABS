@@ -1,0 +1,50 @@
+mkdir linux_lab
+cd linux_lab
+linux_lab mkdir -p projects/web/static
+linux_lab mkdir backups
+linux_lab mkdir temp
+linux_lab cd projects
+projects mkdir scripts
+web cd /home/martynkevich_pa/linux_lab
+linux_lab tree
+cd projects/scripts
+touch main.py
+touch config.yaml
+touh utils.sh
+web touch index.html
+web touch styles.css
+cat > index.html
+cp home/martynkevich_pa/linux_lab/projects/scripts/config.yaml home/martynkevich_pa/linux_lab/temp
+cp home/martynkevich_pa/linux_lab/projects/scripts/*.sh home/matynkevich_pa/linux_lab/temp
+ls -lRh --sort=size ~/linux_lab
+ln ~/linux_lab/projects/scripts/main.py hard_link.txt
+cat hard_link.txt
+cat > hard_link.txt
+cat ~/linux_lab/projects/scripts/main.py
+cd ~/linux_lab/temp
+ln -s ~/linux_lab/projects/web/static/web_link
+cd ~/linux_lab/temp/web_link
+tree
+tar -cvf ~/linux_lab/backups/projects_backup.tar projects/
+tar -czf ~/linux_lab/backups/web_backup.tar.gz projects/web/
+cd linux_lab/projects/scripts
+zip ~/linux_lab/backups/important_files.zip main.py utils.sh
+tar -xzf ~/linux_lab/backup/web_backup.tar.gz -C ~/linux_lab/temp/restored_web
+unzip -l ~/linux_lab/backups/important_files.zip
+rm -rf ~/linux_lab/temp/*
+rm -rf ~/linux_lab/backups/*
+{
+whoami
+logname
+pwd
+id
+ls -l projects/scripts/
+} > ~/linux_lab/report.txt
+date >> ~/linux_lab/report.txt
+cp ~/linux_lab/report.txt
+zip -P 1111 -r ~/linux_lab_final.zip linux_lab/
+unzip -l ~/linux_lab_final.zip
+rm -r ~/linux_lab
+unzip ~/linux_lab_final.zip
+cat ~/linux_lab/report.txt
+tree ~/linux_lab
