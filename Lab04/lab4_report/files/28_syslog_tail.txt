@@ -1,0 +1,20 @@
+2025-10-28T17:04:29.171565+03:00 martynkevich-pc fwupdmgr[3066]: Updating lvfs
+2025-10-28T17:04:33.140775+03:00 martynkevich-pc fwupdmgr[3066]: Successfully downloaded new metadata: 0 local devices supported
+2025-10-28T17:04:33.144504+03:00 martynkevich-pc systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2025-10-28T17:04:33.144870+03:00 martynkevich-pc systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2025-10-28T17:06:14.936419+03:00 martynkevich-pc systemd[1]: Starting fstrim.service - Discard unused blocks on filesystems from /etc/fstab...
+2025-10-28T17:06:14.944198+03:00 martynkevich-pc systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2025-10-28T17:06:14.964314+03:00 martynkevich-pc systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2025-10-28T17:06:14.965316+03:00 martynkevich-pc systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2025-10-28T17:06:14.983786+03:00 martynkevich-pc systemd[1]: fstrim.service: Deactivated successfully.
+2025-10-28T17:06:14.984101+03:00 martynkevich-pc systemd[1]: Finished fstrim.service - Discard unused blocks on filesystems from /etc/fstab.
+2025-10-28T17:08:14.184393+03:00 martynkevich-pc PackageKit: daemon quit
+2025-10-28T17:08:14.193396+03:00 martynkevich-pc systemd[1]: packagekit.service: Deactivated successfully.
+2025-10-28T17:16:16.360942+03:00 martynkevich-pc dbus-daemon[582]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.78' (uid=0 pid=3620 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+2025-10-28T17:16:16.370186+03:00 martynkevich-pc systemd[1]: Starting packagekit.service - PackageKit Daemon...
+2025-10-28T17:16:16.374447+03:00 martynkevich-pc PackageKit: daemon start
+2025-10-28T17:16:16.394287+03:00 martynkevich-pc dbus-daemon[582]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+2025-10-28T17:16:16.395140+03:00 martynkevich-pc systemd[1]: Started packagekit.service - PackageKit Daemon.
+2025-10-28T17:17:01.665158+03:00 martynkevich-pc CRON[3723]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2025-10-28T17:21:31.182906+03:00 martynkevich-pc PackageKit: daemon quit
+2025-10-28T17:21:31.193960+03:00 martynkevich-pc systemd[1]: packagekit.service: Deactivated successfully.

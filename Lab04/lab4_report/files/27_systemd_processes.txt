@@ -1,0 +1,6 @@
+1 /sbin/init splash
+274 /usr/lib/systemd/systemd-journald
+330 /usr/lib/systemd/systemd-udevd
+474 /usr/lib/systemd/systemd-resolved
+620 /usr/lib/systemd/systemd-logind
+1269 /usr/lib/systemd/systemd --user

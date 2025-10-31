@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root  92 Apr 22  2024 /etc/host.conf
+-rw-r--r-- 1 root root  16 Oct 10 16:53 /etc/hostname
+-rw-r--r-- 1 root root 230 Oct 10 16:53 /etc/hosts
+-rw-r--r-- 1 root root 411 Aug 28 13:50 /etc/hosts.allow
+-rw-r--r-- 1 root root 711 Aug 28 13:50 /etc/hosts.deny
